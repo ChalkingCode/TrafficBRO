@@ -84,7 +84,7 @@ $ source /path/you/want/the/env/in/bin/activate
 
 #### Install Packages on env
 ```       
-Scappy
+Scapy
 
 # This only needs to be ran once per env 
 $ pip install -r requirements.txt
