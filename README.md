@@ -62,22 +62,39 @@ As a detection engineer analyzing PCAP files, you should focus on extracting the
 
 
 Source IP: Originating IP address
+
 Destination IP:	Target IP address
+
 Source Port: Port number on the sending side
+
 Destination Port: Port number on the receiving side
+
 Protocol Type: TCP, UDP, ICMP, etc.
+
 Packet Length: Size of the packet
+
 TCP Flags: SYN, ACK, FIN, RST, etc.
+
 Payload Size: Size of the payload
+
 Capture Time: Timestamp of packet capture
+
 Sequence Number: TCP sequence number
+
 Acknowledgment Number:	TCP acknowledgment number
+
 DNS Query Type:	Type of DNS request
+
 DNS Query Name:	Name queried in DNS
+
 ICMP Type: Type of ICMP message
+
 ICMP Code: Code of ICMP message
+
 TLS/SSL Certificate: Certificate details for HTTPS traffic
+
 Connection Duration: Duration of established connections
+
 Anomalous Behavior Indicators: Repeated connections, uncommon protocols
 
 By focusing on these fields, you can effectively analyze traffic, identify potential threats, and develop detection rules to enhance your security posture.
