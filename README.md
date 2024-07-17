@@ -9,7 +9,7 @@ A super simple packet analyzer
 * [HowTo](#howto)
 
 ## Intro
-As a detection engineer analyzing PCAP files, you should focus on extracting the following key fields:
+As a detection engineer analyzing PCAP files, you should focus on extracting certain fields here are a few below:
 
 1. IP Addresses
 - Source IP: Identify where the traffic is coming from.
@@ -62,7 +62,7 @@ As a detection engineer analyzing PCAP files, you should focus on extracting the
 
 
 ## Features
-- Extracts IP's, Ports, Protocol Types, Packet Length, Payload size, Capture Time, Sequence number, DNS info, ICMP info, TLS/SSL info, Behavior from a pcap file
+- Extracts IP's, Ports, Protocol Types, Packet Length, Payload size, Capture Time, Sequence number, etc
 - Output unique results from the pcap file
 - Give you the ability to quickly search through multiple pcap files
 
